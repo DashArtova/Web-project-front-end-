@@ -1,0 +1,60 @@
+#main{
+    width: 960px;
+    font-family: Helvetica;    
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    
+}
+#main input{
+    border: 1px solid #BD3E62;
+}
+.logo{
+    text-align: center;
+    margin-top: 25px;
+}
+form{
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+form input{
+    height: 35px;
+    width: 270px;
+}
+form div{
+    float: left;
+}
+.spaceL{
+    margin-left: -25px;
+}
+#checkbox{
+    width: 600px;
+}
+#checkbox span{
+    font-style: italic;
+}
+#country{
+    width: 500px;
+    color: white;
+    background-color: #BD3E62;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#checkbox input{
+    width: 20px;
+    clear: both;
+}
+#submit{
+    margin-top: 30px;
+    margin-left: 130px;
+    background-color: white;
+    font-family: Helvetica;    
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    background-color: #BD3E62;
+    color: white;
+}

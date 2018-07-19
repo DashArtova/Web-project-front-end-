@@ -1,0 +1,196 @@
+body{
+    font-family: Helvetica;
+    padding: 10px 45px;
+}
+header{
+    width: 960px;
+    height: auto;
+}
+header div{
+    float: left;
+}
+#logo{
+    margin-top: 28px;
+}
+#block2{
+    margin-left: 24px;
+    width: 280px;
+    height: 108px;
+}
+#block2 img{
+    position: absolute;
+    z-index: 0;
+}
+#jsSeeColl a:link,
+#jsSeeColl a:hover,
+#jsSeeColl a:visited{
+    text-decoration: none;
+    color: white;
+}
+#jsSeeColl{
+    position: absolute;
+    z-index: 100;
+    background-color: #BD3E62;
+    width: 280px;
+    opacity: 0;
+    height: 63px;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    text-align: center;
+    padding-top: 45px; 
+    
+}
+#block3{
+    margin-left: 24px;
+    width: 510px;
+    height: 108px;
+}
+#navInfo{
+    font-size: 10px;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 75px;
+}
+.content{
+    clear: both; 
+    width: 960px; 
+    height: 550px;
+}
+.aside{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 25px;
+    float: left;
+    width: 185px;
+    height: 335px;
+   
+}
+.aside img{
+  margin-top: -5px;
+}
+.aside span{
+    text-shadow: 1px 1px 1px black;
+    opacity: 0.5;
+    font-size: 18px;
+    font-style: normal;
+}
+.aside div ul li{
+    display: inline;
+}
+.aside div ul{
+    list-style-type: none;
+    text-align: left;
+    margin-top: 5px;
+    font-size: 14px;
+    font-style: normal;
+}
+.cont{
+    margin-top: 25px;
+    float: right;
+    width: 750px;
+    height: 210px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    text-align: center;
+}
+.cont1{
+    margin-top: 20px;
+    float: right;
+    width: 755px;
+    height: 325px;
+}
+.cards{
+    float: left;
+    width: 135px;
+    height: 150px; 
+}
+.light{
+    width: 370px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 17px;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    text-align: center;
+}
+footer{
+    width: 960px;
+    height: 205px;
+    clear: both;
+}
+.list{
+    width: 300px;
+    height: 180px;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-indent: 30px;    
+}
+.list ol{
+    margin-top: 40px;
+}
+.list span{
+    font-size: 20px;
+    clear: both;
+    font-style: italic;
+}
+.hoRlist{
+    width: 308px;
+    height: 75px;
+    float: left;
+    margin-left: 20px;
+}
+.hoRlist span{
+    float: right;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-style: italic;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+#shop:link,
+#shop:hover,
+#shop:visited{
+    text-decoration: none;
+    color: black;
+}
+#seven{
+    margin-bottom: 25px;
+    margin-top: 110px;
+    width: 185px;
+    float: left;
+    height: 135px;
+}
+#seven img{
+    margin-top: 85px;
+}
+#nine{
+    width: 370px;
+    float: left;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-indent: 30px;
+    text-align: center;
+}
+#verticaLine{
+    background-color: black;
+    width: 1px;
+    height: 180px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}

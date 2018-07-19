@@ -1,0 +1,85 @@
+body{
+    font-family: Helvetica;
+    padding: 10px 45px;    
+}
+.main{
+    width: 960px;
+    margin-top: 30px;
+}
+header{
+    width: 960px;
+    height: 100px;
+}
+header div hr{
+    width: 660px; 
+    float: right; 
+    margin-top: 20px; 
+    margin-right: 50px;
+}
+#logo{
+    float: right;
+}
+#logoSS{
+    float: left;
+    margin-top: 20px;
+}
+.container {
+    width: 300px;
+    float: left;
+  position: relative;
+}            
+.mySlides img {
+    width: 100%;
+}
+.mySlides {
+  display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;;
+}
+.next {
+  right: 0;;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.row{
+    width: 660px;
+    float: left;
+    margin-top: -20px;
+}
+.column{
+    width: 80px;
+    margin-left: 25px;
+    margin-top: 5px;
+    float: left;
+}
+.column img{
+    width: 100%;
+    float: left;
+}
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+

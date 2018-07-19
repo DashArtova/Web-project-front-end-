@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>LM ContactUs</title>
+        <link href ="contactStyle.css" type = "text/css" rel = "stylesheet"/>
+    </head>
+    <body>
+        <div id = "main">
+            <div class = "logo">
+                <a href = "index.html"><img src="logo.png" alt = "logo" title = "logo"/></a>
+            </div>
+            <div class  = "logo">
+                 +7 (915)183-55-41<br/>
+                 INFO@LOOM.MOSCOW<br/>
+                 www.loom.moscow
+             </div>
+            <form>
+                <div>
+                    <span class = "spaceL">Name :</span><br/>
+                    <input type = "text" name = "firstname"/>
+                </div>
+                <div style = "margin-left: 60px;">
+                    <span style = "float: right;">E-mail :</span><br/>
+                    <input type = "text" name = "email"/>
+                </div>
+                <div style="clear: both; margin-left: 50px; margin-top: 20px;">
+                    <span class = "spaceL">Message :</span><br/>
+                    <input type = "text" name = "message" style = "width: 500px; height: 100px;"/>
+                </div>
+                <div id ="checkbox" style = "text-align: center;">
+                    <div id = "country">Country</div>
+                    <input type = "radio" name = "country" value = "ukraine"/>
+                    <span>Ukraine</span>                    
+                    <input type = "radio" name = "country" value = "russian"/>
+                    <span>Russian</span>
+                </div>
+                <input type = "submit" value = "Submit" id = "submit"/>
+            </form>
+        </div>
+    </body>
+</html>
